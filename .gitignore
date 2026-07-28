@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Personal configuration (contains API token)
+settings.json
+
+# Job-specific template (generated per-user, per-job)
+job_template.xml
+
+# Debug artifacts
+_debug_upload.xml
+
+# Generated PDFs (regenerable via docs/generate_pdf.py)
+docs/*.pdf
+
+# Chat/session dumps
+*.pippo
+
+# OS artifacts
+.DS_Store
+Thumbs.db
